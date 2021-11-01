@@ -24,7 +24,7 @@ Settings -> Developer settings -> Personal access tokens
 
 ### 2． ブランチを立てる / ブランチに移動して開発を行おう！！
 
-githubの大元である```master(旧名:origin)```には大事なコードが集まっているので，必ずブランチを立ててそこで開発を行う
+githubの大元である```main(旧名:origin, master)```には大事なコードが集まっているので，必ずブランチを立ててそこで開発を行う
 
 
 ![branch](screenshot/branch.png "branch")
@@ -121,12 +121,15 @@ commit するときはどんな変更を加えたのか分かるようにコメ�
 ### 4. issue を立てる / pull requestを出してみよう!!
 
 自分のTODOを```issues```にまとめて全体に共有する
+右端の```New issue```から issue を立てる
 
 右端の```Assignees```を自分にしておこう
 
 
 開発が終わったら```pull request```を出して他の開発者にチェックを行ってもらう
-
+右端の```New pull request```からpull requestを送る
+忘れずに右端の```Reviewers```に変更内容をチェックしてもらいたい人を選択する
+一応担当者（自分）を```Assignees```に入れておこう
 
 
 他の開発者の確認が取れたら```merge```してもらえて```master```の方にも反映されます
