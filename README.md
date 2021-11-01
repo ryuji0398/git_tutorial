@@ -2,7 +2,9 @@
 
 1. gitをクローンしてみよう！！
 
-    ![clone](git_clone.png "clone")
+    cd でファイルを作りたい場所に移動
+
+    ![clone](screenshot/git_clone.png "clone")
 
     コマンド
     ```
@@ -13,17 +15,47 @@
 
     Settings -> Developer settings -> Personal access tokens
     からアクセストークンを行う必要がある
+    
+    詳しくは [wiki](https://github.com/oe1307/git_tutorial/wiki) で
 
 
-1. ブランチを立てて，開発しよう
+1. ブランチを立てる / ブランチに移動して開発を行おう！！
 
-    gitの大元である```master```には大事なコードが集まっているので，必ず
+    githubの大元である```master(旧名:origin)```には大事なコードが集まっているので，必ずブランチを立ててそこで開発を行う
+
+    ![branch](screenshot/branch.png "branch")
+
+    実際にディレクトリ```tmp```に何かファイルを追加してみよう
 
 1. add / commit /push をやってみよう
 
-1. pull requestを出してみよう
+    まずは，gitの状態を確認
+
+    ```git status```
+
+    Changes not staged for commit:
+
+    もしくは
+
+    Untracked files:
+
+    と書かれているのが add されていないファイル
+
+    ```git add <ファイルまでのパス>``` 
+
+1. issue を立てる / pull requestを出してみよう!!
+
+    a
 
 1. pull してみよう！
+
+    最新の github の情報を受け取るにはpullを実行する必要がある
+
+    ```git pull```
+    
+    もしくは
+
+    ```git pull origin <ブランチ名>```
 
 1. ほかにも色々とあるので調べながら行う
 
