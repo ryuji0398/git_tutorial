@@ -1,2 +1,10 @@
 git理解のためのキーワード
 
+git add
+git clone
+git branch
+git branch -r
+git checkout
+git commit -m ""
+git push
+git push origin oe/tutorial

@@ -1,62 +1,64 @@
 # 手順
 
-1. gitをクローンしてみよう！！
+### 1. gitをクローンしてみよう！！
 
-    cd でファイルを作りたい場所に移動
+cd でファイルを作りたい場所に移動
 
-    ![clone](screenshot/git_clone.png "clone")
+![clone](screenshot/git_clone.png "clone")
 
-    コマンド
-    ```
-    git clone https://github.com/oe1307/git_tutorial.git
-    ```
+コマンド
+```
+git clone https://github.com/oe1307/git_tutorial.git
+```
 
-    ※サーバー上で行うときは
+※サーバー上で行うときは
 
-    Settings -> Developer settings -> Personal access tokens
-    からアクセストークンを行う必要がある
-    
-    詳しくは [wiki](https://github.com/oe1307/git_tutorial/wiki) で
+Settings -> Developer settings -> Personal access tokens
+からアクセストークンを行う必要がある
+
+詳しくは [wiki](https://github.com/oe1307/git_tutorial/wiki) で
 
 
-1. ブランチを立てる / ブランチに移動して開発を行おう！！
 
-    githubの大元である```master(旧名:origin)```には大事なコードが集まっているので，必ずブランチを立ててそこで開発を行う
+### 2． ブランチを立てる / ブランチに移動して開発を行おう！！
 
-    ![branch](screenshot/branch.png "branch")
+githubの大元である```master(旧名:origin)```には大事なコードが集まっているので，必ずブランチを立ててそこで開発を行う
 
-    実際にディレクトリ```tmp```に何かファイルを追加してみよう
+![branch](screenshot/branch.png "branch")
 
-1. add / commit /push をやってみよう
+実際にディレクトリ```tmp```に何かファイルを追加してみよう
 
-    まずは，gitの状態を確認
 
-    ```git status```
+### 3. add / commit /push をやってみよう
 
-    Changes not staged for commit:
+まずは，gitの状態を確認
 
-    もしくは
+```git status```
 
-    Untracked files:
+Changes not staged for commit:
 
-    と書かれているのが add されていないファイル
+もしくは
 
-    ```git add <ファイルまでのパス>``` 
+Untracked files:
 
-1. issue を立てる / pull requestを出してみよう!!
+と書かれているのが add されていないファイル
 
-    自分のTODOを```issue```にまとめて全体に共有する
-    
+```git add <ファイルまでのパス>``` 
 
-1. pull してみよう！
+### 4. issue を立てる / pull requestを出してみよう!!
 
-    最新の github の情報を受け取るにはpullを実行する必要がある
+自分のTODOを```issue```にまとめて全体に共有する
 
-    ```git pull```
-    
-    もしくは
 
-    ```git pull origin <ブランチ名>```
+### 5. pull してみよう！
 
-1. ほかにも色々とあるので調べながら行う
+最新の github の情報を受け取るにはpullを実行する必要がある
+
+```git pull```
+
+もしくは
+
+```git pull origin <ブランチ名>```
+
+### 6. ほかにも色々とあるので調べながら行う
 
