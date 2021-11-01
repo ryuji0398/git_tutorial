@@ -2,7 +2,7 @@
 
 1. gitをクローンしてみよう！！
 
-    <img src="/Users/issa/code/git_tutorial/git_clone.png" alt="git_clone" style="zoom:67%;" />
+    ![clone](git_clone.png "clone")
 
     コマンド
     ```
@@ -16,6 +16,8 @@
 
 
 1. ブランチを立てて，開発しよう
+
+    gitの大元である```master```には大事なコードが集まっているので，必ず
 
 1. add / commit /push をやってみよう
 
