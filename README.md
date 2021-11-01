@@ -45,7 +45,8 @@
 
 1. issue を立てる / pull requestを出してみよう!!
 
-    a
+    自分のTODOを```issue```にまとめて全体に共有する
+    
 
 1. pull してみよう！
 
