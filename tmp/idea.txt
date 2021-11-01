@@ -8,3 +8,4 @@ git checkout
 git commit -m ""
 git push
 git push origin oe/tutorial
+git log
